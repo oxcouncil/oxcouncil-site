@@ -15,7 +15,7 @@ type Props = {
   allProjects: Project[]
 }
 
-const ProjectsPage = ({ allProjects }: Props) => {  
+const ProjectsPage = ({ allProjects }: Props) => {
   return (
     <>
       <Container maxW={'5xl'}>
@@ -38,7 +38,7 @@ const ProjectsPage = ({ allProjects }: Props) => {
               Projects
             </Text>
             <Text color={'white.500'} fontSize={{ base: '2xl'}} lineHeight={'110%'} maxW={'3xl'} fontWeight={300} textAlign={'center'} pt={'15px'} fontFamily={'body'}>
-              See our contributions on other projects.
+              See our project contributions.
             </Text>
           </Heading>
         </Stack>
