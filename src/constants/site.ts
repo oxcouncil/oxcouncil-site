@@ -15,11 +15,12 @@ export const SITE = {
     },
     SOCIALS: {
         TWITTER: '@oxcouncil',
-        DISCORD: '@oxcouncil'
+        DISCORD: '@oxcouncil',
+        EMAIL: 'theoxcouncil@protonmail.com'
     },
     BLOG: {
         NAME: 'Posts',
-        PATH: '/posts',                                        
+        PATH: '/posts',
         DIR_NAME: '/posts'
     },
     PROJECT: {
