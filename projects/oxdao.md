@@ -1,6 +1,11 @@
 ---
 title: '0xDAO'
+<<<<<<< HEAD
 tagline: 'Governance aggregation for bolstering rewards'
+=======
+tagline: 'Made with love by Fantom builders.'
+excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+>>>>>>> main
 logo: '/assets/projects/oxdao.png'
 featureImage: '/assets/projects/oxdao_horse.jpg'
 date: '2021-03-10T05:35:07.322Z'

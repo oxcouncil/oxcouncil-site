@@ -10,6 +10,8 @@ import ProjectList from '../components/projectList';
 import { getAllPosts } from '../lib/posts';
 import Project from '../types/project';
 import { SITE } from '../constants/site';
+import { CONTENT } from '../constants/projects';
+import { StandardHeading } from '../components/headings';
 
 type Props = {
   allProjects: Project[]
@@ -18,6 +20,7 @@ type Props = {
 const ProjectsPage = ({ allProjects }: Props) => {
   return (
     <>
+<<<<<<< HEAD
       <Container maxW={'5xl'}>
         <Stack
           textAlign={'center'}
@@ -44,6 +47,10 @@ const ProjectsPage = ({ allProjects }: Props) => {
         </Stack>
       </Container>
       <Container width={'100%'} maxWidth={'100%'} pt={10} pb={5} borderRadius={30}>
+=======
+      <StandardHeading heading={CONTENT.HEADING} tagline={CONTENT.TAGLINE}></StandardHeading>
+      <Container width={'100%'} maxWidth={'100%'} pb={5} borderRadius={30}>
+>>>>>>> main
         <Container maxW={'980px'} px={{base:'3', md:'5'}}>
           <ProjectList projects={allProjects} />
         </Container>
@@ -66,6 +73,7 @@ export const getStaticProps = async () => {
   const allProjects = getAllPosts( SITE.PROJECT.DIR_NAME, [
     'title',
     'tagline',
+    'excerpt',
     'date',
     'slug',
     'logo',
